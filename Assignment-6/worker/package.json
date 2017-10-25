@@ -1,0 +1,15 @@
+{
+  "name": "workerside",
+  "version": "1.0.0",
+  "description": "a worker side",
+  "main": "worker.js",
+  "scripts": {
+    "start": "node worker.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jitendra Purohit",
+  "license": "MIT",
+  "dependencies": {
+    "node-redis-pubsub": "^1.0.2"
+  }
+}
